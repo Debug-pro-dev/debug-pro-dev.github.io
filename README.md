@@ -1,2 +1,2 @@
-# debug-pro-dev.github.io
-Debug-pro-dev
+Только на русском!!!
+Russian only!!!
