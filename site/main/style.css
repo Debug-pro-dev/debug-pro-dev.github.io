@@ -1,0 +1,65 @@
+.card_container .avatar {
+	width: 150px;
+	top: 63px;
+	position: absolute;
+	left: 50px;
+}
+.card_container .tag {
+	color: white;
+	font-weight: 900;
+	font-size: 37px;
+	left: 211px;
+	position: absolute;
+	top: 26px;
+}
+.card_container .desc {
+	color: white;
+	font-weight: 900;
+	position: absolute;
+	top: 117px;
+	left: 267px;
+	border-radius: 9px;
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+	border: 6px solid red;
+}
+.card_container {
+	background-color: grey;
+	width: 500px;
+	border-radius: 35px;
+	height: 250px;
+	border: 8px solid red;
+	animation-name: color;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	position: absolute;
+	top: 24%;
+	left: 23%;
+}
+@keyframes color {
+	0% {
+		border-color: red;
+	}
+	
+	20% {
+		border-color: orange;
+	}
+	
+	40% {
+		border-color: yellow;
+	}
+	
+	60% {
+		border-color: green;
+	}
+	
+	80% {
+		border-color: blue;
+	}
+	
+	100% {
+		border-color: red;
+	}
+}
