@@ -1,10 +1,7 @@
 const $$ = {
-    p: function(urlh) {
-        //Проверка на указанный url
-        if (!urlh) {
-            urlh = document.location.href;
-        };
+    p: function() {
         //Переменные
+        let urlh = document.location.href;
         let url = new URL(urlh);
         //Функции
         function get_param(name) {
