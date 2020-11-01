@@ -1,5 +1,4 @@
-const $$;
-$$ = {
+const $$ = {
     p: function(urlh) {
         //Проверка на указанный url
         if (!urlh) {
